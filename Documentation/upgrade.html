@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+<meta name="description" content="MyBB Documentation">
+<meta name="author" content="MyBB Group">
+<title>MyBB Documentation - Upgrade</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/sidebar.css" rel="stylesheet">
+<link href="css/stylesheet.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand"> <a href="index.html"> MyBB Documentation </a> </li>
+    <div id="menu-head" class="menu-head text-left">
+      <h3>Menu:</h3>
+    </div>
+    <li> <a href="index.html">Welcome</a> </li>
+    <li> <a href="license.html">License Agreement</a> </li>
+    <li> <a href="install.html">Installation Instructions</a> </li>
+    <li> <a href="upgrade.html">Upgrade Instructions</a> </li>
+    <li> <a href="credits.html">Credits</a> </li>
+    <div id="menu-head" class=" menu-head text-left">
+      <h3>MyBB Links:</h3>
+    </div>
+    <li> <a href="https://mybb.com">MyBB Website</a> </li>
+    <li> <a href="https://community.mybb.com">MyBB Community Forums</a> </li>
+    <li> <a href="https://docs.mybb.com">MyBB Docs</a> </li>
+  </ul>
+</div>
+<!-- /#sidebar-wrapper --> 
+
+<!-- Page Content -->
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="container">
+         <div id="menu-toggle" class="text-left">
+          <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Toggle Menu</a>
+          </div>
+          <div id="header">
+            <h1>MyBB</h1>
+          </div>
+          <div id="page-content">
+            <div class="item">
+              <h3>Upgrade Instructions</h3>
+              <h4>Quickly get your board updated with the last version of MyBB</h4>
+              <p class="alert"><strong>Warning:</strong> Always previously back up your MyBB database, and any custom themes you have before attempting to upgrade!</p>
+              <ol>
+                <li>Unzip the release archive to your computer using an archive utility capable of decompressing the download format you chose (<a href="http://www.winzip.com">WinZip</a>, <a href="http://www.rarsoft.com/">WinRAR</a>)</li>
+                <li>Using an ftp client (<a href="http://www.flashfxp.com">FlashFXP</a>, <a href="http://filezilla-project.org/">FileZilla</a>, <a href="http://www.smartftp.com/">SmartFTP</a>), upload the contents of the 'Upload' directory to the directory in which you have a previous version of MyBB installed, with the <b>exception</b> of uploading of the following file:<br />
+                  ./inc/settings.php</li>
+                <li>In your browser, visit the URL where you installed your forums, appending /install/upgrade.php on to the end of it.<br />
+                  <br />
+                  If you installed your forums to http://www.yoursite.com/forums/, then you would visit http://www.yoursite.com/forums/install/upgrade.php</li>
+                <li>Select the version of MyBB which you were <strong>previously running</strong> and click 'Next.' Follow the upgrade process through making sure each step is completed successfully before clicking 'Next' to continue with the next steps of the upgrade process.</li>
+                <li>Once the upgrade process has completed, please remove the install directory from your web server and follow any remaining instructions in the upgrade wizard, or in the announcement for the upgrade. This can include reverting selected templates to default.</li>
+              </ol>
+              <p>Congratulations, your forums should now be running the version of MyBB within this release.</p>
+            </div>
+            <div id="footer">
+              <p> &copy; 2016 MyBB Group. All Rights Reserved. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper --> 
+  
+</div>
+<!-- /#wrapper --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Menu Toggle Script --> 
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

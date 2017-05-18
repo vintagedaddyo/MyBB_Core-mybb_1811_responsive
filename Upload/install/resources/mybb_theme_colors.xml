@@ -1,0 +1,1549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<scheme><![CDATA[black=Black]]></scheme>
+	<scheme><![CDATA[calm=Calm]]></scheme>
+	<scheme><![CDATA[dawn=Dawn]]></scheme>
+	<scheme><![CDATA[earth=Earth]]></scheme>
+	<scheme><![CDATA[flame=Flame]]></scheme>
+	<scheme><![CDATA[leaf=Leaf]]></scheme>
+	<scheme><![CDATA[night=Night]]></scheme>
+	<scheme><![CDATA[sun=Sun]]></scheme>
+	<scheme><![CDATA[twilight=Twilight]]></scheme>
+	<scheme><![CDATA[water=Water]]></scheme>
+	<stylesheets>
+		<stylesheet name="color_black.css" attachedto="black" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_black.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #282C2D; 
+}
+
+a:focus, a:hover {
+	color: #555;
+}
+
+#logo {
+	background: #202020 url(images/colors/black_header.png) top left repeat-x;
+	border-bottom: 1px solid #000000;
+}
+
+#header {
+	background: #202020 url(images/colors/black_header.png) top left repeat-x;
+	border-bottom: 1px solid #000000;
+    margin-top: -20px;
+    margin-bottom: -21px;
+
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/black_tcat.png') top left repeat-x;
+	background-color: #dcdbdc;
+    border-color: #DFDFE0 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #202020;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #666666 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #666666;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+	background-color: #DCDBDC;
+	color: #333333;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+	color: #333333;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: #666666;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color:  #DCDBDC;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+
+.panel-primary > .panel-heading {
+	background: url('images/colors/black_thead.png') top left repeat-x;
+	background-color: #202020;
+	border: 1px solid #202020;
+}
+
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #FFFFFF;
+}
+
+.modal-header {
+	background: url('images/colors/black_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #202020;
+	border-color: #202020;
+}
+
+.btn-primary {
+	background: url('images/colors/black_thead.png') top left repeat-x;
+	background-color: #202020;
+	border: 1px solid #202020;
+	color: #FFFFFF;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/black_thead.png') top left repeat-x;
+	background-color: #202020;
+	border: 1px solid #666666;
+	color: #666666;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/black_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333333;
+}
+
+.forum_on {
+	color: #303030;
+}
+
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #303030;
+}
+
+.post_controls a:link, .post_controls a:visited,  .post_controls a:active {
+	color: #555555;
+}
+
+.post_controls a:hover {
+	color: #000000;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #ffdd4d;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #000000;
+	background: #dcdbdc url('images/colors/black_tcat.png') repeat-x;
+    border-color: #bbbbbb;
+}
+
+.thead {
+	background: #202121 url('images/colors/black_thead.png') top left repeat-x;
+	border-bottom: 1px solid #000000;
+}
+
+.tcat {
+	background: #dcdbdc url('images/colors/black_tcat.png') repeat-x;
+	color: #000000;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #BBBBBB;
+}
+
+.tcat a:link,
+.tcat a:visited,
+.tcat a:hover,
+.tcat a:active {
+	color: #000000;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #111111;
+}
+
+.popup_menu .popup_item:hover {
+	background: #333333;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #333333;
+	color: #ffffff;
+}
+
+.pagination a:hover {
+	background-color: #333333;
+	color: #ffffff;
+	border-color: #000000;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_calm.css" attachedto="calm" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_calm.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #48715b; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #385947 url('images/colors/calm_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+#header {
+	background: #385947 url('images/colors/calm_header.png') top left repeat-x;
+	border-bottom: 1px solid #263c30;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/calm_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/calm_thead.png') top left repeat-x;
+	background-color: #385947;
+	border: 1px solid #385947;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/calm_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #385947;
+	border-color: #385947;
+}
+.btn-primary {
+	background: url('images/colors/calm_thead.png') top left repeat-x;
+	background-color: #385947;
+	border: 1px solid #385947;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/calm_thead.png') top left repeat-x;
+	background-color: #385947;
+	border: 1px solid #666;
+	color: #000;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #48715b;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/calm_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/calm_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #48715b;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #48715b;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/calm_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #385947 url('images/colors/calm_thead.png') top left repeat-x;
+	color: #ffffff;
+	border-bottom: 1px solid #263c30;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #263c30;
+}
+
+.popup_menu .popup_item:hover {
+	background: #48715b;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #48715b;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #48715b;
+	color: #fff;
+	border-color: #263c30;
+}]]>
+	</stylesheet>
+	<stylesheet name="color_dawn.css" attachedto="dawn" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_dawn.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #d56c2c; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #d56c2c url('images/colors/dawn_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #d56c2c url('images/colors/dawn_header.png') top left repeat-x;
+	border-bottom: 1px solid #9a4e20;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/dawn_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/dawn_thead.png') top left repeat-x;
+	background-color: #d56c2c;
+	border: 1px solid #d56c2c;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/dawn_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #d56c2c;
+	border-color: #d56c2c;
+}
+.btn-primary {
+	background: url('images/colors/dawn_thead.png') top left repeat-x;
+	background-color: #d56c2c;
+	border: 1px solid #d56c2c;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/dawn_thead.png') top left repeat-x;
+	background-color: #d56c2c;
+	border: 1px solid #666;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #d56c2c;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/dawn_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/dawn_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #d56c2c;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #d56c2c;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/dawn_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #d56c2c url('images/colors/dawn_thead.png') top left repeat-x;
+	border-bottom: 1px solid #9a4e20;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #9a4e20;
+}
+
+.popup_menu .popup_item:hover {
+	background: #f2a555;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #f2a555;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #f2a555;
+	color: #fff;
+	border-color: #9a4e20;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_earth.css" attachedto="earth" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_earth.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #6d5545; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #4a3b2f url('images/colors/earth_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #4a3b2f url('images/colors/earth_header.png') top left repeat-x;
+	border-bottom: 1px solid #31261e;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/earth_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/earth_thead.png') top left repeat-x;
+	background-color: #4a3b2f;
+	border: 1px solid #4a3b2f;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/earth_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #4a3b2f;
+	border-color: #4a3b2f;
+}
+.btn-primary {
+	background: url('images/colors/earth_thead.png') top left repeat-x;
+	background-color: #4a3b2f;
+	border: 1px solid #4a3b2f;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/earth_thead.png') top left repeat-x;
+	background-color: #4a3b2f;
+	border: 1px solid #666;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #4a3b2f;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/earth_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/earth_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #6d5545;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #6d5545;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/earth_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #4a3b2f url('images/colors/earth_thead.png') top left repeat-x;
+	border-bottom: 1px solid #31261e;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #31261e;
+}
+
+.popup_menu .popup_item:hover {
+	background: #6d5545;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #6d5545;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #6d5545;
+	color: #fff;
+	border-color: #31261e;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_flame.css" attachedto="flame" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_flame.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #a20000; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #750000 url('images/colors/flame_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #750000 url('images/colors/flame_header.png') top left repeat-x;
+	border-bottom: 1px solid #31261e;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/flame_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/flame_thead.png') top left repeat-x;
+	background-color: #750000;
+	border: 1px solid #750000;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/flame_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #750000;
+	border-color: #750000;
+}
+.btn-primary {
+	background: url('images/colors/flame_thead.png') top left repeat-x;
+	background-color: #750000;
+	border: 1px solid #750000;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/flame_thead.png') top left repeat-x;
+	background-color: #750000;
+	border: 1px solid #666;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #750000;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/flame_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/flame_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #a20000;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #a20000;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/flame_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #750000 url('images/colors/flame_thead.png') top left repeat-x;
+	border-bottom: 1px solid #550000;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #550000;
+}
+
+.popup_menu .popup_item:hover {
+	background: #a20000;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #a20000;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #a20000;
+	color: #fff;
+	border-color: #550000;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_leaf.css" attachedto="leaf" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_leaf.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #5aaf33; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #386e21 url('images/colors/leaf_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #386e21 url('images/colors/leaf_header.png') top left repeat-x;
+	border-bottom: 1px solid #234615;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/leaf_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/leaf_thead.png') top left repeat-x;
+	background-color: #386e21;
+	border: 1px solid #386e21;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/leaf_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #386e21;
+	border-color: #386e21;
+}
+.btn-primary {
+	background: url('images/colors/leaf_thead.png') top left repeat-x;
+	background-color: #386e21;
+	border: 1px solid #386e21;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/leaf_thead.png') top left repeat-x;
+	background-color: #386e21;
+	border: 1px solid #666;
+	color: #000;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #59AC33;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/leaf_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/leaf_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #5aaf33;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #5aaf33;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/leaf_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #386e21 url('images/colors/leaf_thead.png') top left repeat-x;
+	border-bottom: 1px solid #234615;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #234615;
+}
+
+.popup_menu .popup_item:hover {
+	background: #5aaf33;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #5aaf33;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #5aaf33;
+	color: #fff;
+	border-color: #234615;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_night.css" attachedto="night" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_night.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #023a61; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #022338 url('images/colors/night_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #022338 url('images/colors/night_header.png') top left repeat-x;
+	border-bottom: 1px solid #011929;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/night_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/night_thead.png') top left repeat-x;
+	background-color: #022338;
+	border: 1px solid #022338;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/night_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #022338;
+	border-color: #022338;
+}
+.btn-primary {
+	background: url('images/colors/night_thead.png') top left repeat-x;
+	background-color: #022338;
+	border: 1px solid #022338;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/night_thead.png') top left repeat-x;
+	background-color: #022338;
+	border: 1px solid #666;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #022338;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/night_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/night_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #022338;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #022338;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/night_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #022338 url('images/colors/night_thead.png') top left repeat-x;
+	border-bottom: 1px solid #011929;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #011929;
+}
+
+.popup_menu .popup_item:hover {
+	background: #023a61;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #023a61;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #023a61;
+	color: #fff;
+	border-color: #011929;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_sun.css" attachedto="sun" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_sun.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #555; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #ffdd4d  url('images/colors/sun_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #ffdd4d  url('images/colors/sun_header.png') top left repeat-x;
+	border-bottom: 1px solid #111;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/sun_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+
+.panel-primary > .panel-heading {
+	background: url('images/colors/sun_thead.png') top left repeat-x;
+	background-color: #ffdd4d ;
+	border: 1px solid #ffdd4d ;
+	color: #000;
+}
+
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #000;
+}
+
+.modal-header {
+	background: url('images/colors/sun_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #ffdd4d ;
+	border-color: #ffdd4d ;
+}
+
+.btn-primary {
+	background: url('images/colors/sun_thead.png') top left repeat-x;
+	background-color: #ffdd4d ;
+	border: 1px solid #ffdd4d ;
+	color: #000;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/sun_thead.png') top left repeat-x;
+	background-color: #ffdd4d ;
+	border: 1px solid #666;
+	color: #000;
+}
+
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/sun_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #0F0F0F;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color:  #0F0F0F;
+}
+
+.post_controls a:link, .post_controls a:visited,  .post_controls a:active {
+	color: #555;
+}
+
+.post_controls a:hover {
+	color: #000;
+}
+
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #0F0F0F;
+    border-color: #ffdd4d;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/sun_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/sun_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+.thead {
+	background: #ffdd4d url('images/colors/sun_thead.png') top left repeat-x;
+	border-bottom: 1px solid #ffaf1a;
+	color: #000;
+}
+
+.thead a:link,
+.thead a:visited,
+.thead a:hover,
+.thead a:active {
+	color: #000;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #ffaf1a;
+}
+
+.popup_menu .popup_item:hover {
+	background: #ffea9c;
+	color: #000;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #ffea9c;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #ffea9c;
+	color: #000;
+	border-color: #ffaf1a;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_twilight.css" attachedto="twilight" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_twilight.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #426276; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #273a46 url('images/colors/twilight_header.png') top left repeat-x;
+}
+
+#header ul.menu li a {
+	color: #fff;
+}
+
+
+#header {
+	background: #273a46 url('images/colors/twilight_header.png') top left repeat-x;
+	border-bottom: 1px solid #1d2b34;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/twilight_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/twilight_thead.png') top left repeat-x;
+	background-color: #273a46;
+	border: 1px solid #273a46;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/twilight_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #273a46;
+	border-color: #273a46;
+}
+.btn-primary {
+	background: url('images/colors/twilight_thead.png') top left repeat-x;
+	background-color: #273a46;
+	border: 1px solid #273a46;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/twilight_thead.png') top left repeat-x;
+	background-color: #273a46;
+	border: 1px solid #666;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #273a46;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/twilight_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/twilight_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #273a46;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #273a46;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/twilight_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+.thead {
+	background: #273a46 url('images/colors/twilight_thead.png') top left repeat-x;
+	border-bottom: 1px solid #1d2b34;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #1d2b34;
+}
+
+.popup_menu .popup_item:hover {
+	background: #426276;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #426276;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #426276;
+	color: #fff;
+	border-color: #1d2b34;
+}]]>
+		</stylesheet>
+		<stylesheet name="color_water.css" attachedto="water" version="1800"><![CDATA[/*
+ * MyBB: Default Responsive Theme 
+ *
+ * File: color_water.css
+ * 
+ * Authors: ashley1 & vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ */
+
+a {
+ color: #2d9595; 
+}
+
+a:focus, a:hover {
+	color: #282C2D;
+}
+
+#logo {
+	background: #1e6365 url('images/colors/water_header.png') top left repeat-x;
+}
+
+#header ul.menu li a:link {
+	color: #fff;
+}
+
+
+#header {
+	background: #1e6365 url('images/colors/water_header.png') top left repeat-x;
+	border-bottom: 1px solid #133f41;
+    margin-top: -20px;
+	margin-bottom: -21px;
+}
+
+.navbar-inverse {
+ 	background:  url('images/colors/water_tcat.png') top left repeat-x;
+	background-color: #0F0F0F;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+   border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	color: #ffffff;
+}
+
+.panel-primary {
+	border-color: #E7E7E7;
+}
+.panel-primary > .panel-heading {
+	background: url('images/colors/water_thead.png') top left repeat-x;
+	background-color: #1e6365;
+	border: 1px solid #1e6365;
+}
+.panel-heading a:link, .panel-heading a:visited, .panel-heading a:hover, .panel-heading a:active {
+	color: #fff;
+}
+.modal-header {
+	background: url('images/colors/water_thead.png') top left repeat-x;
+	padding: 8px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #1e6365;
+	border-color: #1e6365;
+}
+.btn-primary {
+	background: url('images/colors/water_thead.png') top left repeat-x;
+	background-color: #1e6365;
+	border: 1px solid #1e6365;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background: url('images/colors/water_thead.png') top left repeat-x;
+	background-color: #1e6365;
+	border: 1px solid #666;
+	color: #000;
+}
+.btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+    background-color: #0F0F0F;
+    border-color: #1e6365;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary.focus:active, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	color: #FFFFFF;
+ 	background: #0F0F0F url('images/colors/water_tcat.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle {
+	background: url('images/colors/water_thead.png') top left repeat-x;
+	border-color: #0F0F0F;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #0F0F0F;
+	border-color: #333;
+}
+
+.forum_on {
+	color: #1e6365;
+}
+.forum_off, .forum_offlock, .forum_offlink {
+	color: #1e6365;
+}
+
+.tcat {
+ 	background: #0F0F0F url('images/colors/water_tcat.png') top left repeat-x;
+	color: #fff;
+	padding: 8px;
+}
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #fff;
+}
+
+.thead {
+	background: #1e6365 url('images/colors/water_thead.png') top left repeat-x;
+	border-bottom: 1px solid #133f41;
+}
+
+.thead input.textbox,
+.thead select {
+	border: 1px solid #133f41;
+}
+
+.popup_menu .popup_item:hover {
+	background: #2d9595;
+	color: #fff;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #2d9595;
+	color: #fff;
+}
+
+.pagination a:hover {
+	background-color: #2d9595;
+	color: #fff;
+	border-color: #133f41;
+}]]>
+		</stylesheet>
+	</stylesheets>
+</colors>

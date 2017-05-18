@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+<meta name="description" content="MyBB Documentation">
+<meta name="author" content="MyBB Group">
+<title>MyBB Documentation - Install</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/sidebar.css" rel="stylesheet">
+<link href="css/stylesheet.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand"> <a href="index.html"> MyBB Documentation </a> </li>
+    <div id="menu-head" class="menu-head text-left">
+      <h3>Menu:</h3>
+    </div>
+    <li> <a href="index.html">Welcome</a> </li>
+    <li> <a href="license.html">License Agreement</a> </li>
+    <li> <a href="install.html">Installation Instructions</a> </li>
+    <li> <a href="upgrade.html">Upgrade Instructions</a> </li>
+    <li> <a href="credits.html">Credits</a> </li>
+    <div id="menu-head" class=" menu-head text-left">
+      <h3>MyBB Links:</h3>
+    </div>
+    <li> <a href="https://mybb.com">MyBB Website</a> </li>
+    <li> <a href="https://community.mybb.com">MyBB Community Forums</a> </li>
+    <li> <a href="https://docs.mybb.com">MyBB Docs</a> </li>
+  </ul>
+</div>
+<!-- /#sidebar-wrapper --> 
+
+<!-- Page Content -->
+<div id="page-content-wrapper">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="container">
+         <div id="menu-toggle" class="text-left">
+          <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Toggle Menu</a>
+          </div>
+          <div id="header">
+            <h1>MyBB</h1>
+          </div>
+          <div id="page-content">
+            <div class="item">
+              <h3>Installation Instructions</h3>
+              <h4>Quick and easy steps to get you up and running</h4>
+              <p>These steps are by no means exhaustive or as detailed as possible. If you require more detailed installation instructions, please see <a href="https://docs.mybb.com/1.8/install/">MyBB Docs - Installing</a>.</p>
+              <ol>
+                <li>Unzip the release archive to your computer using an archive utility capable of decompressing the download format you chose (<a href="http://www.winzip.com">WinZip</a>, <a href="http://www.rarsoft.com/">WinRAR</a>)</li>
+                <li>Using an FTP client (<a href="http://www.flashfxp.com">FlashFXP</a>, <a href="http://filezilla-project.org/">FileZilla</a>, <a href="http://www.smartftp.com/">SmartFTP</a>), or a file manager provided with your hosting package, upload the entire contents of the 'Upload' directory to a visible directory on your web server (for example, forum or forums).</li>
+                <li>CHMOD the following files to 666 (ie, make sure that PHP can write to them).<br />
+                  ./inc/settings.php<br />
+                  ./inc/config.php (you must rename <strong>config.default.php</strong> to <strong>config.php</strong> first)<br />
+                  ./inc/languages/*your_language*/*all files* (optional)<br />
+                  ./inc/languages/*your_language*/admin/*all files* (optional)<br />
+                  <br />
+                  CHMOD the following folders to 777 (ie, make sure that PHP can write to and execute from them).<br />
+                  ./cache/<br />
+                  ./cache/themes/<br />
+                  ./uploads/<br />
+                  ./uploads/avatars/<br />
+                  ./admin/backups/ (optional)</li>
+                <li>In your browser, visit the URL where you installed your forums, appending /install/ on to the end of it.<br />
+                  <br />
+                  If you installed your forums to http://www.yoursite.com/forums/ then you would visit http://www.yoursite.com/forums/install/.</li>
+                <li>Please follow the installation wizard through, making sure you have the following details handy:
+                  <ul>
+                    <li><strong>Database Details:</strong><br />
+                      MyBB 1.8 can run on MySQL, SQLite and PostgreSQL. You will need the details of your database so MyBB can connect to it. Generally your web host should be able to supply you with these details.
+                      <ul>
+                        <li><strong>MySQL:</strong> You need your MySQL username, password, database name and the hostname or ip address of your MySQL server.</li>
+                        <li><strong>SQLite:</strong> You need the path to your database.</li>
+                        <li><strong>PostgreSQL:</strong> You need your PostgreSQL username, password, database name and the hostname or ip address of your PostgreSQL server.</li>
+                      </ul>
+                    </li>
+                    <li><strong>Forum Details:</strong><br />
+                      This includes the name of your forums, the URL to your forums directory, the name of your website, and the URL to your website.</li>
+                    <li><strong>Administrator Information:</strong><br />
+                      During the installation process you will be required to create your initial administrator account. You will need to know which username, password, and email address you intend to use for this account</li>
+                  </ul>
+                </li>
+                <li>After the installation has completed, please delete the 'install' directory from server.<br />
+                  Note: for extra security you can CHMOD config.php back to 644, or even 444, but make sure you leave settings.php writable, as well as all the other files and folders with extra permissions.</li>
+                <li>You can now login to the Administration Control Panel by appending /admin/ on to the URL of your forums</li>
+              </ol>
+              <p>Congratulations, you should now have an installed and working copy of MyBB on your web server.</p>
+            </div>
+            <div id="footer">
+              <p> &copy; 2016 MyBB Group. All Rights Reserved. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- /#page-content-wrapper --> 
+  
+</div>
+<!-- /#wrapper --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Menu Toggle Script --> 
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>

@@ -4098,7 +4098,7 @@ $(".forumjump").change(function() {
 		<div class="panel-footer small text-right">				
 			<ul class="list-inline">	
 				{$logoutlink}
-				<li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;<a href="misc.php?action=markread{$post_code_string}">{$lang->markread}</a></li>
+				<li><i class="fa fa-check" aria-hidden="true"></i>&nbsp;<a href="misc.php?action=markread{$post_code_string}">{$lang->bottomlinks_markread}</a></li>
 				<li><i class="fa fa-users" aria-hidden="true"></i>&nbsp;<a href="showteam.php">{$lang->forumteam}</a></li>
 				{$statspage}
 			</ul>		
